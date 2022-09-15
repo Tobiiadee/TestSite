@@ -61,7 +61,7 @@ section .sec-img {
 
 
 section .sec-img .img {
-    background: url(images/aleksandra-boguslawska-MS7KD9Ti7FQ-unsplash.jpg);
+    background: url(/images/aleksandra-boguslawska-MS7KD9Ti7FQ-unsplash.jpg);
     width: 400px;
     height: 400px;
 
