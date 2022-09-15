@@ -188,7 +188,8 @@ main section .sec-container {
 
 .section .sec1 .boxes {
     margin-top: 2rem;
-    margin-left: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .flex {
