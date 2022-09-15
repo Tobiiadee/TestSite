@@ -228,14 +228,15 @@ main section .sec-container {
 }
 
 footer {
-
+    width: 100%;
+    padding: 1rem;
 }
 
 footer .footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 
-    gap: 1rem;
+    gap: 3rem;
 
     place-content: center;
 
