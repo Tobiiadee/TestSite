@@ -67,6 +67,9 @@
     width: 70%;
     height: 100%;
 
+    /* transform: scale(0);
+    transition: transform 500ms ease-in; */
+
     display: none;
 }
 
@@ -78,7 +81,7 @@
 }
 
 .slidout {
-    animation: slideInLeft;
+    animation: slideInRight;
     animation-duration: 500ms;
 }
 
@@ -139,15 +142,15 @@
 }
 
 .main header .block .action {
-    display: block;
-    align-self: center;
+    display: flex;
+    /* align-self: center; */
 
     margin-top: 8rem;
 }
 
 .main header .block .action button {
     padding: 0.5rem 1rem;
-    /* margin-left: 2rem; */
+    margin: 0 auto;
 
     border-radius: 30% 0;
 

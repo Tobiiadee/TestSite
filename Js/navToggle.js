@@ -10,7 +10,6 @@ navToggle.addEventListener('click', () => {
 navToggleClose.addEventListener('click', () => {
 
     navBlock.classList.remove('display');
-    navBlock.classList.add('slidout');
 
     console.log('button cancel clicked');
 
