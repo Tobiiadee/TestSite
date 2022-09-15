@@ -163,11 +163,11 @@ main section .sec-container {
 }
 
 .section .sec1 {
-    /* display: flex;
+    display: flex;
     flex-direction: column;
 
     justify-items: center;
-    align-content: center; */
+    align-content: center;
     width: 100%;
 
     /* border: 1px solid; */
@@ -175,9 +175,8 @@ main section .sec-container {
 
 .section .sec1 h1 {
     display: block;
+    justify-self: center;
     
-    margin-left: 4rem;
-
     /* border: 1px solid; */
 }
 
