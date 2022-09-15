@@ -102,7 +102,7 @@
 }
 
 .aside .aside-m .aside-m-img {
-    background: url(/images/samuele-errico-piccarini-JEBqFu2AOOA-unsplash.jpg);
+    background: url(./images/samuele-errico-piccarini-JEBqFu2AOOA-unsplash.jpg);
     background-size: cover;
     display: block;
     width: 400px;
@@ -138,7 +138,7 @@ footer {
 footer > div {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    width: 80%;
+    width: 90%;
 }
 
 footer a {
