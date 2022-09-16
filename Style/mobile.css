@@ -24,7 +24,20 @@
     background: none;
     margin: 0;
     /* margin-left: -150px; */
+
+    cursor: pointer;
+
+    
 }
+
+header .btn1 {
+    display: block;
+
+    border: 1px solid;
+    border-radius: 0;
+    padding: 0.5rem 0.5rem 1rem;
+}
+
 
 .main header button .hamburger {
     display: block;
@@ -67,10 +80,10 @@
     width: 70%;
     height: 100%;
 
-    /* transform: scale(0);
-    transition: transform 500ms ease-in; */
-
     display: none;
+
+    transform: translateX(0);
+    transition: transform 500ms ease-in;
 }
 
 .display {
@@ -78,11 +91,19 @@
 
     animation: slideInLeft;
     animation-duration: 500ms;
+
+    /* transform: translateX(100px);
+    transform-origin: right;
+   transition: transform 500ms ease-in; */
 }
 
 .slidout {
-    animation: slideInRight;
-    animation-duration: 500ms;
+   transform: translateX(-300px) !important;
+   transition: transform 500ms ease-in;
+
+   /* animation: backOutLeft !important;
+   animation-duration: 500ms; */
+
 }
 
 .main header .block .btn {
@@ -97,6 +118,8 @@
     /* border: 2px solid;
     border-radius: 5px;
     padding: 1rem; */
+
+    cursor: pointer;
 }
 
 .main header .block .btn .hamburgerr {
@@ -105,7 +128,7 @@
     background-color: #000;
 
     width: 30px;
-    height: 2px;
+    height: 3px;
     transform: rotate(45deg);
 }
 
@@ -115,7 +138,7 @@
     background-color: #000;
 
     width: 30px;
-    height: 2px;
+    height: 3px;
     transform: rotate(90deg);
     top: 0;
     left: 0;
@@ -180,10 +203,12 @@ main section {
 main section .sec-img {
     grid-row: 1;
     display: block;
+
 }
 
 main section .sec-img .img {
-    width: 300px;
+    width: 60vw;
+    /* max-width: 300px; */
     height: 300px;
 }
 
@@ -278,6 +303,7 @@ main section .sec-container {
 footer {
     width: 100%;
     padding: 1rem;
+    padding-top: 3rem;
 }
 
 footer .footer {

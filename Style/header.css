@@ -22,7 +22,7 @@ header {
     height: 10vh;
 
     position: fixed;
-    width: 100%;
+    width: 100vw;
 
     background-color: #b1c0db;
 
@@ -35,8 +35,8 @@ header {
     animation-duration: 2s;
 }
 
-header > button {
-    /* display: none; */
+header .btn1 {
+    display: none;
 }
 
 header .logo {
