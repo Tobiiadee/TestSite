@@ -61,7 +61,7 @@ section .sec-img {
 
 
 section .sec-img .img {
-    background: url(images/aleksandra-boguslawska-MS7KD9Ti7FQ-unsplash.jpg);
+    background: url(/images/aleksandra-boguslawska-MS7KD9Ti7FQ-unsplash.jpg);
     width: 30vw;
     max-width: 400px;
     height: 400px;
@@ -179,7 +179,7 @@ section .sec-img .img5 {
 }
 
 .section .sec-image2 {
-    background: url(images/artem-sapegin-XGDBdSQ70O0-unsplash.jpg);
+    background: url(/images/artem-sapegin-XGDBdSQ70O0-unsplash.jpg);
     background-size: cover;
     border-radius: 20px;
 
